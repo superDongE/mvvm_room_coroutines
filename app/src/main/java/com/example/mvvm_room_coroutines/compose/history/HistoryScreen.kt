@@ -1,4 +1,4 @@
-package com.example.mvvm_room_coroutines
+package com.example.mvvm_room_coroutines.compose.history
 
 import androidx.compose.runtime.Composable
 

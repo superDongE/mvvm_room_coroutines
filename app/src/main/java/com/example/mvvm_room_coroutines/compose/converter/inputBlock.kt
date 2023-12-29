@@ -1,4 +1,4 @@
-package com.example.mvvm_room_coroutines
+package com.example.mvvm_room_coroutines.compose.converter
 
 import android.content.Context
 import android.widget.Toast
@@ -25,6 +25,7 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.mvvm_room_coroutines.data.Conversion
 
 @Composable
 fun InputBlock(
