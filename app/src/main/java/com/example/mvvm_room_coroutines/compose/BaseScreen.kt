@@ -28,7 +28,11 @@ fun BaseScreen(
         TopScreen(list) { message1, messeage2 ->
             convertViewModel.addResult(message1, messeage2)
         }
+
         Spacer(modifier = modifier.height(20.dp))
-        HistoryScreen(historyList)
+
+        HistoryScreen(historyList, { item ->
+            convertViewModel.removeResult(item)
+        })
     }
 }

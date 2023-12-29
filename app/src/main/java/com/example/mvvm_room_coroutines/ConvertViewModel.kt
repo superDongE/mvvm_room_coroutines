@@ -30,4 +30,10 @@ class ConvertViewModel(
             )
         }
     }
+
+    fun removeResult(item: ConversionResult) {
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.deleteResult(item)
+        }
+    }
 }

@@ -46,7 +46,7 @@ fun HistoryItem(
             )
         }
 
-        IconButton(onClick = { onClose }) {
+        IconButton(onClick = { onClose() }) {
             Icon(Icons.Filled.Close, contentDescription = "Close")
         }
     }
